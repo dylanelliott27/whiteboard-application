@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.chatbox{
+    background-color: green;
+    height: 30vh;
+    width: 50%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.card-body{
+    height: 20vh;
+    overflow: auto;
+}
+#canvas{
+    border: 1px solid black;
+    border-radius: 3px;
+}
+#thediv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eeeeeedb;
+}
+.toolbar{
+    background-color: red;
+    width: 100%;
+}
+.toolcontainer{
+    margin-bottom: 4.3rem;
+    height: 5vh;
+    display: flex;
+    background-color: #c5c9cc;
+    width: 77%;
+    justify-content: space-between;;
+    align-items: center;
+}
+.green{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+}
+.flex{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.blue{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+
+}
+.red{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
+.black{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+
+}
+.headerc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.headerc > p{
+    flex: 1;
+    padding-left: 4rem;
+    margin: 0;
+}
+.contss{
+    background-color: #f5f5f5;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.formcont{
+    background-color: white;
+    height: 50vh;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+@media only screen and (max-width: 700px) {
+   .toolcontainer{
+       margin-bottom: 2rem;
+   }
+   .formcont{
+       height: 60vh;
+       width: 75vw;
+   }
+  }
+  
